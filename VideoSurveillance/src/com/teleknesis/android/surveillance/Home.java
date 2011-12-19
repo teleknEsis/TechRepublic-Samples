@@ -15,7 +15,7 @@ import android.os.Bundle;
 import android.os.Looper;
 import android.view.View;
 
-import com.teleknesis.android.peepshow.utils.Logger;
+import com.teleknesis.android.surveillance.utils.Logger;
 
 public class Home extends Activity {
 	

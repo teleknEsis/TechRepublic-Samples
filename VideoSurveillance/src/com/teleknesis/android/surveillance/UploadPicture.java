@@ -47,7 +47,7 @@ import com.dropbox.client2.exception.DropboxParseException;
 import com.dropbox.client2.exception.DropboxPartialFileException;
 import com.dropbox.client2.exception.DropboxServerException;
 import com.dropbox.client2.exception.DropboxUnlinkedException;
-import com.teleknesis.android.peepshow.utils.Logger;
+import com.teleknesis.android.surveillance.utils.Logger;
 
 /**
  * Here we show uploading a file in a background thread, trying to show

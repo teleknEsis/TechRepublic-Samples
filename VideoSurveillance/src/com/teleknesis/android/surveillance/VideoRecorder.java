@@ -37,7 +37,7 @@ import com.dropbox.client2.session.AccessTokenPair;
 import com.dropbox.client2.session.AppKeyPair;
 import com.dropbox.client2.session.Session.AccessType;
 import com.dropbox.client2.session.TokenPair;
-import com.teleknesis.android.peepshow.utils.Logger;
+import com.teleknesis.android.surveillance.utils.Logger;
 
 //*******************************************************
 //*******************************************************

@@ -16,7 +16,6 @@ public class TabListener<T extends Fragment> implements ActionBar.TabListener {
     /** Constructor used each time a new tab is created.
       * @param activity  The host Activity, used to instantiate the fragment
       * @param tag  The identifier tag for the fragment
-      * @param clz  The fragment's Class, used to instantiate the fragment
       */
     public TabListener(Activity activity, String tag, ViewPager pager) {
         this.mActivity = activity;

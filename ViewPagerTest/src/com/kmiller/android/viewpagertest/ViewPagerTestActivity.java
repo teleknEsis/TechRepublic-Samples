@@ -95,7 +95,6 @@ public class ViewPagerTestActivity extends FragmentActivity {
 							new TabListener<android.app.Fragment>(this, 4 + "", mPager));
 			mActionBar.addTab(tab);
 			
-			//mActionBar.getTabAt(index).select();
 			} 
         catch (Exception e) {
 			Log.e("ViewPager", e.toString());
@@ -124,6 +123,7 @@ public class ViewPagerTestActivity extends FragmentActivity {
         	mActionBar = bar;
         	}
     }
+    
     
     public static class ArrayListFragment extends ListFragment {
         int mNum;

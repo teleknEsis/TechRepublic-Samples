@@ -117,7 +117,6 @@ public class ViewPagerTestActivity extends FragmentActivity {
 
         @Override
         public android.support.v4.app.Fragment getItem(int position) {
-        	//mActionBar.getTabAt(position).select();
             return ArrayListFragment.newInstance(position);
         }
         
